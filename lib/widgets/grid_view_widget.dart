@@ -4,7 +4,7 @@ class GridViewWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child: GridView.extent(
+        child: GridView.extent( // Si se usa extent permite darle dimension maxima
             maxCrossAxisExtent: 250,
             padding: const EdgeInsets.all(3),
             mainAxisSpacing: 4,
@@ -20,7 +20,7 @@ class GridViewCountWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child: GridView.count(
+        child: GridView.count( // Si se usa count permite decir cuantos elementos por linea
             crossAxisCount: 2,
             padding: const EdgeInsets.all(3),
             mainAxisSpacing: 4,

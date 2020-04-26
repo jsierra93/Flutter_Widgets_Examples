@@ -52,7 +52,7 @@ class ImagesPages extends StatelessWidget {
           appBar: AppBar(
             title: Text('Flutter Widget Examples'),
           ),
-          body: GridViewCountWidget()),
+          body: ListViewWidget()),
     );
   }
 }
