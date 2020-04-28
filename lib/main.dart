@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterwidgets/widgets/repository_widgets.dart';
+import 'package:widgets_examples/widgets/repository_widgets.dart';
 
 void main() => runApp(MyApp());
 
