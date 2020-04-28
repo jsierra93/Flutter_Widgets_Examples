@@ -16,18 +16,25 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Widget Examples',
       home: Scaffold(
           appBar: AppBar(
             title: Text('Flutter Widget Examples'),
           ),
-          body: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          body: ListView(
             children: <Widget>[
-              SizedBox(
-                height: 20,
-                width: double.infinity,
+              Stack(
+                children: <Widget>[
+                  Image.asset(
+                    'assets/images/image_home_2.jpg',
+                    height: 100,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  )
+                ],
               ),
+              SizedBox(height: 10, width: double.infinity),
               ListWidgetElement(
                   numItem: '1', textItem: 'Row Widget', linkPage: RowPages()),
               ListWidgetElement(
