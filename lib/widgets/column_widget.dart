@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 class ColumnPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Column Widget Examples',
-      home: Scaffold(
+    return  Scaffold(
           appBar: AppBar(
             title: Text('Column Widget Examples'),
           ),
@@ -25,7 +23,7 @@ class ColumnPage extends StatelessWidget {
                 child: new Text("Volver"),
               )
             ],
-          )),
+          )
     );
   }
 }

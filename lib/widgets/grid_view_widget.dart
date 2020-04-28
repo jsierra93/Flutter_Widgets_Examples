@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 
-class GridViewWidget extends StatelessWidget {
+class GridViewExtentPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: GridView.extent( // Si se usa extent permite darle dimension maxima
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('Column Imagen Widget Examples'),
+        ),
+        body: GridView.extent(
+            // Si se usa extent permite darle dimension maxima
             maxCrossAxisExtent: 250,
             padding: const EdgeInsets.all(3),
             mainAxisSpacing: 4,
@@ -16,12 +20,16 @@ class GridViewWidget extends StatelessWidget {
       (i) => Container(child: Image.asset('assets/images/imagen_$i.jpg')));
 }
 
-class GridViewCountWidget extends StatelessWidget {
+class GridViewCountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: GridView.count( // Si se usa count permite decir cuantos elementos por linea
-            crossAxisCount: 2,
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('Column Imagen Widget Examples'),
+        ),
+        body: GridView.count(
+            // Si se usa count permite decir cuantos elementos por linea
+            crossAxisCount: 3,
             padding: const EdgeInsets.all(3),
             mainAxisSpacing: 4,
             crossAxisSpacing: 4,

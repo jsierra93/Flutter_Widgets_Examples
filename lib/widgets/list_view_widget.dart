@@ -4,8 +4,11 @@ import 'package:flutter/rendering.dart';
 class ListViewWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: ListView(
+    return Scaffold(
+      appBar: AppBar(
+            title: Text('Column Imagen Widget Examples'),
+          ),
+          body: ListView(
         physics: BouncingScrollPhysics(),
         children: [
           Padding(

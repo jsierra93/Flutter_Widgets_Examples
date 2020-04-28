@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 class RowImagesWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Scaffold(
+          appBar: AppBar(
+            title: Text('Row Widget Examples'),
+          ),
+          body: Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
         Expanded(child: 
@@ -16,6 +20,7 @@ class RowImagesWidget extends StatelessWidget {
         Image.asset('assets/images/imagen_3.jpg'),
         )
               ],
+    )
     );
   }
 }

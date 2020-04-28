@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-  
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -26,11 +25,12 @@ class HomePage extends StatelessWidget {
             children: <Widget>[
               ListWidgetElement(numItem: '1', textItem: 'Row Widget', linkPage: RowPages()),
               ListWidgetElement(numItem: '2', textItem: 'Column Widget', linkPage: ColumnPage()),
-              ListWidgetElement(numItem: '3', textItem: 'Row Image Widget', linkPage: RowPages()),
-              ListWidgetElement(numItem: '4', textItem: 'Column Image Widget', linkPage: RowPages()),
-              ListWidgetElement(numItem: '5', textItem: 'List View Widget', linkPage: RowPages()),
-              ListWidgetElement(numItem: '6', textItem: 'Grid View Widget', linkPage: RowPages()),
-              ListWidgetElement(numItem: '7', textItem: 'Stack Widget', linkPage: RowPages())
+              ListWidgetElement(numItem: '3', textItem: 'Row Image Widget', linkPage: RowImagesWidget()),
+              ListWidgetElement(numItem: '4', textItem: 'Column Image Widget', linkPage: ColumnImagesPage()),
+              ListWidgetElement(numItem: '5', textItem: 'List View Widget', linkPage: ListViewWidget()),
+              ListWidgetElement(numItem: '6', textItem: 'Grid View Extent Widget', linkPage: GridViewExtentPage()),
+              ListWidgetElement(numItem: '7', textItem: 'Grid View Count Widget', linkPage: GridViewCountPage()),
+              ListWidgetElement(numItem: '8', textItem: 'Stack Widget', linkPage: StackPage())
             ],
           )),
     );

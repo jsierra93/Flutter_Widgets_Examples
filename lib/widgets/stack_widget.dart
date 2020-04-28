@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
-class StackWidget extends StatelessWidget {
+class StackPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('Column Imagen Widget Examples'),
+        ),
+        body:Center(
       child: Column(children: <Widget>[
         Stack(
           alignment: const Alignment(0.6, 0.6),
@@ -47,6 +51,7 @@ class StackWidget extends StatelessWidget {
           ),
         ])
       ]),
+    )
     );
   }
 }
