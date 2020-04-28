@@ -16,12 +16,6 @@ class ColumnPage extends StatelessWidget {
                   height: 50, color: Colors.blue, child: Text('Elemento # 2')),
               Container(
                   height: 50, color: Colors.green, child: Text('Elemento # 3')),
-              new RaisedButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                child: new Text("Volver"),
-              )
             ],
           )
     );
