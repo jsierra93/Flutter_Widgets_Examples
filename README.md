@@ -2,12 +2,13 @@
 
 App multiplataforma donde se realiza la implementación de widgets tipo layout proporcionados por Flutter.
 
-##Fuentes oficiales
+## Fuentes oficiales
 
 https://flutter-es.io/docs/get-started/install
 
 https://flutter.dev/
-###Generar iconos para Android y iOS
+
+### Generar iconos para Android y iOS
 
 Agregar en el archivo pubspec.yaml las siguientes lineas:
 
@@ -21,6 +22,14 @@ flutter_icons:
   image_path: "assets/images/icono_app.png"
   ```
 
-##Fuentes oficiales
+### Screenshot
+<br>
+<img  width="400"
+     height="600" src='Flutter_Apps.png'>
+</br>
+<br>
+<img  width="400"
+     height="300"src='Flutter_Apps_2.png'>
+</br>
 
   https://github.com/jsierra93
