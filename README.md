@@ -24,12 +24,12 @@ flutter_icons:
 
 ### Screenshot
 <br>
-<img  width="400"
-     height="600" src='Flutter_Apps.png'>
+<img  width="800"
+     height="800" src='Flutter_Apps.png'>
 </br>
 <br>
-<img  width="400"
-     height="300"src='Flutter_Apps_2.png'>
+<img  width="800"
+     height="400"src='Flutter_Apps_2.png'>
 </br>
 
   https://github.com/jsierra93
